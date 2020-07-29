@@ -26,3 +26,7 @@ prismjs:
   theme: default
   theme_dark: default
 ```
+
+可用的样式见[highlight](https://github.com/highlightjs/highlight.js/tree/master/src/styles) [prismjs](https://github.com/PrismJS/prism/tree/master/themes)
+
+See the available styles: [highlight](https://github.com/highlightjs/highlight.js/tree/master/src/styles) [prismjs](https://github.com/PrismJS/prism/tree/master/themes)
