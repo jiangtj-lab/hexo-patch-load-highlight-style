@@ -2,6 +2,9 @@
 
 Automatically load hexo code highlighting style, support highlight and prismjs
 
+![npm](https://img.shields.io/npm/v/@jiangtj/hexo-patch-load-highlight-style.svg)
+[![Theme](https://img.shields.io/badge/hexo-5+-blue.svg)](https://theme-next.org)
+
 ## install
 
 ```bash
