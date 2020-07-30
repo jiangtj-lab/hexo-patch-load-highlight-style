@@ -32,7 +32,11 @@ const resolvePrismThemePath = name => {
     // eslint-disable-next-line node/no-extraneous-require
     return require.resolve('prismjs/themes/prism.css');
   }
-  return require.resolve(`prismjs/themes/prism-${name}.css`);
+  try {
+    return require.resolve(`prismjs/themes/prism-${name}.css`);
+  } catch (ignore) {
+    return require.resolve(`prism-themes/themes/prism-${name}.css`);
+  }
 };
 if (prismCfg.enable) {
   require('./lib/load-css')(hexo)({

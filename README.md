@@ -26,7 +26,7 @@ prismjs:
 ## feature
 
 - Support all [highlight](https://github.com/highlightjs/highlight.js/tree/master/src/styles) styles (e.g. {theme:a11y-light} load a11y-light.css)
-- Support all [prismjs](https://github.com/PrismJS/prism/tree/master/themes) styles (e.g. {theme:coy} load prism-coy.css)
+- Support all [prismjs](https://github.com/PrismJS/prism/tree/master/themes) and [prism-themes](https://github.com/PrismJS/prism-themes/tree/master/themes) styles (e.g. {theme:coy} load prism-coy.css)
 - Support auto load prism line_number plugin styles
 - Support auto load prism js when preprocess is false
 
