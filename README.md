@@ -1,7 +1,5 @@
 # hexo-patch-load-highlight-style
 
-自动加载hexo代码高亮的样式，支持highlight与prismjs
-
 Automatically load hexo code highlighting style, support highlight and prismjs
 
 ## install
@@ -11,8 +9,6 @@ yarn add @jiangtj/hexo-patch-load-highlight-style
 ```
 
 ## config
-
-对应的配置中新增 `theme` 与 `theme_dark`, `theme_dark` 会在你的系统主题为深色时应用
 
 Add `theme` and `theme_dark` to the corresponding configuration, `theme_dark` will be applied when your system theme is dark
 
@@ -27,6 +23,11 @@ prismjs:
   theme_dark: default
 ```
 
-可用的样式见[highlight](https://github.com/highlightjs/highlight.js/tree/master/src/styles) [prismjs](https://github.com/PrismJS/prism/tree/master/themes)
+## feature
 
-See the available styles: [highlight](https://github.com/highlightjs/highlight.js/tree/master/src/styles) [prismjs](https://github.com/PrismJS/prism/tree/master/themes)
+- Support all [highlight](https://github.com/highlightjs/highlight.js/tree/master/src/styles) styles (e.g. {theme:a11y-light} load a11y-light.css)
+- Support all [prismjs](https://github.com/PrismJS/prism/tree/master/themes) styles (e.g. {theme:coy} load prism-coy.css)
+- Support auto load prism line_number plugin styles
+- Support auto load prism js when preprocess is false
+
+
