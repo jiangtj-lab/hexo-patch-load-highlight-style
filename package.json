@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "p": "yarn --proxy=http://localhost:1080"
   },
   "repository": {
     "type": "git",
@@ -27,5 +28,8 @@
   "devDependencies": {
     "eslint": "^7.0.0",
     "eslint-config-hexo": "^4.1.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
   }
 }
