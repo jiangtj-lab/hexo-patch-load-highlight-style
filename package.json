@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/jiangtj-lab/hexo-patch-load-highlight-style#readme",
   "dependencies": {
-    "hexo-extend-injector2": "^0.2.1",
+    "hexo-extend-injector2": "^0.3.0",
     "hexo-util": "^2.2.0",
     "prism-themes": "^1.4.0"
   },
