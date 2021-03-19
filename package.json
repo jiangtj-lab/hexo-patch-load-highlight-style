@@ -1,10 +1,11 @@
 {
   "name": "@jiangtj/hexo-patch-load-highlight-style",
-  "version": "1.1.0",
+  "version": "1.2.0-b1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "p": "yarn --proxy=http://localhost:1080"
   },
   "repository": {
     "type": "git",
@@ -20,12 +21,15 @@
   },
   "homepage": "https://github.com/jiangtj-lab/hexo-patch-load-highlight-style#readme",
   "dependencies": {
-    "hexo-extend-injector2": "^0.2.1",
+    "hexo-extend-injector2": "^0.3.0",
     "hexo-util": "^2.2.0",
     "prism-themes": "^1.4.0"
   },
   "devDependencies": {
     "eslint": "^7.0.0",
     "eslint-config-hexo": "^4.1.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
   }
 }
